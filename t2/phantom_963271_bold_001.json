@@ -1,0 +1,25 @@
+{
+  "identifier": {
+    "identifier": "https://phantom.loris.ca/api/v0.0.3/opencandidates/963271/MNI_SCAN1_20120918/images/phantom_963271_MNI_SCAN1_20120918_bold_001.mnc",
+    "identifierSource": "URL"
+  },
+  "title": "Phantom BOLD Scan 963271",
+  "creators": [
+    {"name": "MCIN LORIS Team"}
+  ],
+  "description": "BOLD fMRI scan from LORIS Phantom 963271. Publicly accessible for testing.",
+  "version": "2021-09-18",
+  "licenses": [{"name": "cc-zero"}],
+  "distributions": [
+    {
+      "formats": ["MINC"],
+      "size": 0.5,
+      "unit": {"value": "GB"},
+      "access": {
+        "landingPage": "https://phantom.loris.ca/api/v0.0.3/opencandidates/963271/MNI_SCAN1_20120918/",
+        "accessURL": "https://phantom.loris.ca/api/v0.0.3/opencandidates/963271/MNI_SCAN1_20120918/images/phantom_963271_MNI_SCAN1_20120918_bold_001.mnc",
+        "authorizations": [{"value": "public"}]
+      }
+    }
+  ]
+}
