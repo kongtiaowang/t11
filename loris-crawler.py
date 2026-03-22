@@ -193,14 +193,17 @@ for project in project_names:
 
         subprocess.run(
             [
-                "git", "annex", "addurl",
-                url,
-                "--file", str(target),
+                "datalad", "addurls",
+                "--dataset", ".",
                 "--fast",
-                "--relaxed",
+                "-",
+                "{url}",
+                "{path}",
             ],
             cwd=DATASET_DIR,
             env=env,
+            input=f"{url} {target}\n",
+            text=True,
             check=True,
         )
 
